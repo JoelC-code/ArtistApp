@@ -133,7 +133,6 @@ fun ArtistView(
             ) {
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
                     CircularProgressIndicator(color = Color(0xFFA7FF96))
-                    Spacer(modifier = Modifier.height(8.dp))
                 }
             }
         }
